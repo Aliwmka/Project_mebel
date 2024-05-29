@@ -1,0 +1,502 @@
+.screen {
+  background-color: #1e1e1e;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.screen .div {
+  background-color: #1e1e1e;
+  width: 1440px;
+  height: 2615px;
+  position: relative;
+}
+
+.screen .overlap {
+  position: absolute;
+  width: 1324px;
+  height: 126px;
+  top: 81px;
+  left: 72px;
+}
+
+.screen .view {
+  position: absolute;
+  width: 1293px;
+  height: 126px;
+  top: 0;
+  left: 0;
+}
+
+.screen .group {
+  position: relative;
+  width: 1295px;
+  height: 126px;
+}
+
+.screen .text-wrapper {
+  width: 435px;
+  top: 0;
+  left: 0;
+  color: #ffffff;
+  font-size: 64px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .line {
+  position: absolute;
+  width: 1293px;
+  height: 5px;
+  top: 121px;
+  left: 0;
+}
+
+.screen .text-wrapper-2 {
+  width: 154px;
+  top: 22px;
+  left: 458px;
+  color: #ffffff;
+  font-size: 32px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-3 {
+  position: absolute;
+  width: 166px;
+  top: 21px;
+  left: 674px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-4 {
+  width: 164px;
+  top: 21px;
+  left: 899px;
+  color: #ffffff;
+  font-size: 32px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-5 {
+  width: 224px;
+  top: 22px;
+  left: 1100px;
+  color: #ffffff;
+  font-size: 32px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .img {
+  position: absolute;
+  width: 5px;
+  height: 87px;
+  top: 0;
+  left: 635px;
+}
+
+.screen .line-2 {
+  position: absolute;
+  width: 5px;
+  height: 87px;
+  top: 0;
+  left: 860px;
+}
+
+.screen .line-3 {
+  position: absolute;
+  width: 5px;
+  height: 87px;
+  top: 0;
+  left: 1080px;
+}
+
+.screen .rectangle {
+  width: 1293px;
+  height: 618px;
+  top: 254px;
+  position: absolute;
+  left: 72px;
+  object-fit: cover;
+}
+
+.screen .furnitura {
+  position: absolute;
+  width: 1293px;
+  top: 966px;
+  left: 72px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .rectangle-2 {
+  width: 547px;
+  height: 637px;
+  top: 1244px;
+  position: absolute;
+  left: 72px;
+  object-fit: cover;
+}
+
+.screen .p {
+  width: 744px;
+  top: 1239px;
+  left: 623px;
+  color: #ffffff;
+  font-size: 30px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .span {
+  font-weight: 700;
+}
+
+.screen .text-wrapper-6 {
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 0;
+}
+
+.screen .view-2 {
+  position: absolute;
+  width: 1297px;
+  height: 461px;
+  top: 1954px;
+  left: 72px;
+}
+
+.screen .view-3 {
+  position: absolute;
+  width: 1285px;
+  height: 343px;
+  top: 118px;
+  left: 3px;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+.screen .overlap-group-wrapper {
+  position: absolute;
+  width: 615px;
+  height: 289px;
+  top: 0;
+  left: 0;
+}
+
+.screen .overlap-group {
+  position: relative;
+  width: 609px;
+  height: 289px;
+  background-color: #d9d9d9;
+  border-radius: 25px;
+}
+
+.screen .ellipse {
+  position: absolute;
+  width: 93px;
+  height: 92px;
+  top: 26px;
+  left: 17px;
+  object-fit: cover;
+  border-radius: 46.72px/45.98px;
+}
+
+.screen .text-wrapper-7 {
+  width: 165px;
+  top: 40px;
+  left: 127px;
+  color: #000000;
+  font-size: 40px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-8 {
+  position: absolute;
+  width: 224px;
+  top: 80px;
+  left: 127px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #0000005c;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen .text-wrapper-9 {
+  width: 375px;
+  top: 126px;
+  left: 127px;
+  color: #000000;
+  font-size: 36px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .overlap-wrapper {
+  position: absolute;
+  width: 615px;
+  height: 289px;
+  top: 0;
+  left: 661px;
+}
+
+.screen .text-wrapper-10 {
+  width: 327px;
+  top: 40px;
+  left: 127px;
+  color: #000000;
+  font-size: 40px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-11 {
+  position: absolute;
+  width: 272px;
+  top: 80px;
+  left: 127px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #0000005c;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen .text-wrapper-12 {
+  width: 449px;
+  top: 136px;
+  left: 110px;
+  color: #000000;
+  font-size: 36px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .div-wrapper {
+  position: absolute;
+  width: 615px;
+  height: 289px;
+  top: 0;
+  left: 1344px;
+}
+
+.screen .text-wrapper-13 {
+  width: 363px;
+  top: 126px;
+  left: 127px;
+  color: #000000;
+  font-size: 36px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-14 {
+  width: 297px;
+  top: 40px;
+  left: 127px;
+  color: #000000;
+  font-size: 40px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-15 {
+  position: absolute;
+  width: 227px;
+  top: 87px;
+  left: 127px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #0000005c;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen .view-4 {
+  position: absolute;
+  width: 615px;
+  height: 289px;
+  top: 0;
+  left: 2005px;
+}
+
+.screen .text-wrapper-16 {
+  width: 292px;
+  top: 40px;
+  left: 127px;
+  color: #000000;
+  font-size: 40px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-17 {
+  position: absolute;
+  width: 346px;
+  top: 80px;
+  left: 127px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #0000005c;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen .text-wrapper-18 {
+  width: 346px;
+  top: 118px;
+  left: 127px;
+  color: #000000;
+  font-size: 36px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .overlap-2 {
+  position: absolute;
+  width: 1295px;
+  height: 79px;
+  top: 0;
+  left: 0;
+}
+
+.screen .text-wrapper-19 {
+  width: 281px;
+  top: 0;
+  left: 0;
+  color: #ffffff;
+  font-size: 64px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .vector {
+  position: absolute;
+  width: 1292px;
+  height: 5px;
+  top: 74px;
+  left: -10px;
+}
+
+.screen .aliwmwmka-gmail-com {
+  position: absolute;
+  top: 2463px;
+  left: 75px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .vector-2 {
+  position: absolute;
+  width: 2px;
+  height: 88px;
+  top: 2465px;
+  left: 532px;
+}
+
+.screen .element {
+  top: 2464px;
+  left: 581px;
+  color: #ffffff;
+  font-size: 36px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .telegram-app {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  top: 2463px;
+  left: 1100px;
+}
+
+.screen .VK-com {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  top: 2465px;
+  left: 1238px;
+}
